@@ -1,0 +1,20 @@
+{
+  "name": "web-with-react",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages/web-with-react",
+    "packages/web-with-react-test",
+    "packages_imported/html-core-js/1.6.10",
+    "packages_imported/kotlin-wrappers-kotlin-react-js-ir/1.0.0-SNAPSHOT",
+    "packages_imported/kotlin-wrappers-kotlin-react-dom-js-ir/1.0.0-SNAPSHOT",
+    "packages_imported/kotlin-wrappers-kotlin-styled-js-ir/1.0.0-SNAPSHOT",
+    "packages_imported/kotlin-test-js-runner/0.0.1"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}
