@@ -1,10 +1,10 @@
 abi_version=1.8.0
 builtins_platform=JS
 compiler_version=2.0.0
-depends=org.jetbrains.compose.html\:html-core org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.kotlin\:kotlin-dom-api-compat org.jetbrains.kotlin-wrappers\:kotlin-styled org.jetbrains.kotlin-wrappers\:kotlin-react-dom org.jetbrains.kotlin-wrappers\:kotlin-react org.jetbrains.kotlin-wrappers\:kotlin-extensions org.jetbrains.kotlinx\:kotlinx-html org.jetbrains.kotlin-wrappers\:kotlin-css kotlin
+depends=org.jetbrains.compose.html\:html-core org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin
 ir_signature_versions=1,2
-jsOutputName=web-with-react
+jsOutputName=web-compose-in-js
 metadata_version=1.4.1
-serializedIrFileFingerprints=28i9rg9ixyiph.9dcyol7mznld 21r84kdphg99t.jgua143p1qg7
-serializedKlibFingerprint=141js8pknf5se.11d0rdnar1g1u
-unique_name=web-with-react
+serializedIrFileFingerprints=98ji8idegx3h.1iwvpaquunz2e
+serializedKlibFingerprint=1e092e609hxwt.3lqbjiy8utwi4
+unique_name=me.user\:web-compose-in-js
