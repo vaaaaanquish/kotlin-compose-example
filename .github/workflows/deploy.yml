@@ -21,13 +21,10 @@ jobs:
       - name: Buid JS bundle
         run: |
           ./gradlew jsBrowserProductionWebpack
-      - name: show
-        run: |
-          ls -l build
       - name: Deploy 🚀 to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: github-pages
-          FOLDER: build
+          FOLDER: with-react/build
           CLEAN: true # Automatically remove deleted files from the deploy branch
